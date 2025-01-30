@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="dropletGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#D3D840;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#BFC42C;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#A8AD28;stop-opacity:0.6" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#dropletGradient)">
+    <animate attributeName="r" values="43;45;43" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
